@@ -1,0 +1,57 @@
+/*
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+*/
+
+.title {
+    font-family: Arial, san-serif;
+    text-align: center;
+   
+    
+}
+.flex-container{
+    display:flex;
+    font-family: Arial, san-serif;
+    text-align: center;
+    flex-direction: row;
+    /* background-color: palevioletred; */
+    justify-content:flex-end;
+    gap: 50px;
+    margin: 10 px;
+    
+    
+}
+.background-color{
+
+    background-color: lightblue;
+    height: 1000px;
+    width: 100%;
+    
+} 
+
+button{
+    background-color: violet;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(3, 7, 89);
+    border-radius: 0.3rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+
+}
