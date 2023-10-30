@@ -13,17 +13,29 @@ body {
    
     
 }
+.h2Description{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 .flex-container{
     display:flex;
     font-family: Arial, san-serif;
     text-align: center;
     flex-direction: row;
+   
     /* background-color: palevioletred; */
     justify-content:flex-end;
     gap: 50px;
     margin: 10 px;
     
     
+}
+.flex-containerCards{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
 }
 .background-color{
 
@@ -41,6 +53,7 @@ button{
 }
 
 .card {
+    direction: row;
     width: 300px;
     height: 400px;
     background: transparent;
@@ -55,3 +68,6 @@ button{
     margin-bottom: 60px;
 
 }
+table, th, td{
+    border:1px solid black;
+    }
