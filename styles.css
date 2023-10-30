@@ -1,57 +1,91 @@
-/*
-body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    margin: 0;
+/* styles.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap as needed */
+    padding: 10px; /* Add padding for spacing */
+    
 }
-*/
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height based on the width */
+}
 
 .title {
-    font-family: Arial, san-serif;
+    font-family: Arial, sans-serif;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px; /* Adjust the gap as needed */
+    
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
     text-align: center;
-   
-    
-}
-.flex-container{
-    display:flex;
-    font-family: Arial, san-serif;
-    text-align: center;
-    flex-direction: row;
-    /* background-color: palevioletred; */
-    justify-content:flex-end;
-    gap: 50px;
-    margin: 10 px;
-    
-    
-}
-.background-color{
+  }
+  
+  .custom-button:hover {
+    background-color: aquamarine; /* Change color on hover */
+  }
 
-    background-color: lightblue;
-    height: 1000px;
-    width: 100%;
-    
-} 
+  .content {
+    background-color: aquamarine;
+    padding: 10%;
+    display: flex;
+  }
 
-button{
-    background-color: violet;
-    font-size: 20px;
-    border-radius: 20px;
-    border-color: white;
-}
-
-.card {
-    width: 300px;
-    height: 400px;
+  .main-card {
+    width: 600px;
+    height: 500px;
+    align-items: left;
     background: transparent;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(3, 7, 89);
     border-radius: 0.3rem;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
-    margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 40px;
-    margin-bottom: 60px;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.right-content {
+    flex: 1; /* Allow the right-content to take up the remaining space */
+    margin-left: 100px; /* Add margin as needed */
+    margin-top: 50px;
+    text-align: center; /* Center the text horizontally */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+
+
+
+
+  
