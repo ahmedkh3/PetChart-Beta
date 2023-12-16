@@ -1,64 +1,12 @@
-<<<<<<< HEAD
 
 body {
     background: linear-gradient(#5eeaff,#c866f9);
 }
 
-=======
-/* styles.css */
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px; /* Adjust the gap as needed */
-    padding: 10px; /* Add padding for spacing */
-    
-}
-
-.header-left {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Adjust the gap as needed */
-}
-
-.header-right {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Adjust the gap as needed */
-}
-
-.logo {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Automatically adjust the height based on the width */
-}
->>>>>>> c28f0acde9d7566f24f57c6d1c2e76ce7f22b4ea
 
 .title {
-    font-family: Arial, sans-serif;
-    font-size: 24px; /* Adjust the font size as needed */
-}
-
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 20px; /* Adjust the gap as needed */
-    
-}
-
-.custom-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: transparent;
-    color: black;
-    text-decoration: none;
-    
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: Arial, san-serif;
     text-align: center;
-<<<<<<< HEAD
    
     
 }
@@ -88,21 +36,13 @@ body {
     
 }
 .background-color{
-=======
-  }
-  
-  .custom-button:hover {
-    background-color: aquamarine; /* Change color on hover */
-  }
->>>>>>> c28f0acde9d7566f24f57c6d1c2e76ce7f22b4ea
 
-  .content {
-    background-color: aquamarine;
-    padding: 10%;
-    display: flex;
-  }
+    background-color: lightblue;
+    height: 1000px;
+    width: 100%;
+    
+} 
 
-<<<<<<< HEAD
 button{
     background-color: violet;
     font-size: 20px;
@@ -114,23 +54,17 @@ button{
     direction: row;
     width: 300px;
     height: 400px;
-=======
-  .main-card {
-    width: 600px;
-    height: 500px;
-    align-items: left;
->>>>>>> c28f0acde9d7566f24f57c6d1c2e76ce7f22b4ea
     background: transparent;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(3, 7, 89);
     border-radius: 0.3rem;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
 
-<<<<<<< HEAD
 }
 table, th, td{
     border:1px solid black;
@@ -148,18 +82,3 @@ table, th, td{
         height: 200px;
         resize: none;
     }
-=======
-.right-content {
-    flex: 1; /* Allow the right-content to take up the remaining space */
-    margin-left: 100px; /* Add margin as needed */
-    margin-top: 50px;
-    text-align: center; /* Center the text horizontally */
-    font-size: 24px; /* Adjust the font size as needed */
-}
-
-
-
-
-
-  
->>>>>>> c28f0acde9d7566f24f57c6d1c2e76ce7f22b4ea
